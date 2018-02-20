@@ -1,4 +1,4 @@
-import ledger from 'ledgerco/src/index-browserify';
+import ledger from 'ledgerco';
 import EthereumTx from 'ethereumjs-tx';
 import u2f from '../u2f-api';
 import {timeout} from 'promise-timeout';
