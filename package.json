@@ -2,7 +2,7 @@
   "name": "ledger-wallet-provider",
   "version": "1.15.5",
   "description": "Ledger Nano S wallet provider for the Web3 ProviderEngine",
-  "main": "src/index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "babel src --out-dir lib",

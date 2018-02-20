@@ -1,7 +1,6 @@
 import TrezorConnect from '../connect';
 import EthereumTx from 'ethereumjs-tx';
 import u2f from '../u2f-api';
-import {timeout} from 'promise-timeout';
 const stripHexPrefix = require('strip-hex-prefix');
 const BigNumber = require('bignumber.js');
 if (window.u2f === undefined) window.u2f = u2f;
